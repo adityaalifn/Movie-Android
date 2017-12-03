@@ -1,4 +1,4 @@
-package com.example.tabul.myapplication.data;
+package com.example.tabul.myapplication.api;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -8,7 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 
 public class ApiClient {
-    public static ApiRequestInterface service(){
+    public static ApiRequestInterface service() {
         Retrofit retrofit = new Retrofit.Builder().addConverterFactory(GsonConverterFactory.create())
                 .baseUrl("https://api.themoviedb.org/3/")
                 .build();

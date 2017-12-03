@@ -1,4 +1,6 @@
-package com.example.tabul.myapplication.data;
+package com.example.tabul.myapplication.api;
+
+import com.example.tabul.myapplication.api.dao.MovieResponseDao;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

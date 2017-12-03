@@ -1,4 +1,4 @@
-package com.example.tabul.myapplication.main;
+package com.example.tabul.myapplication.api.dao;
 
 public class MainDao {
 

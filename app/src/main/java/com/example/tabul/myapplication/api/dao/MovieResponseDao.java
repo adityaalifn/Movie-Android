@@ -1,4 +1,4 @@
-package com.example.tabul.myapplication.data;
+package com.example.tabul.myapplication.api.dao;
 
 import java.util.ArrayList;
 import java.util.List;

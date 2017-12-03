@@ -8,12 +8,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.tabul.myapplication.R;
+import com.example.tabul.myapplication.api.dao.MainDao;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
 
-public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MainHolder>{
+public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MainHolder> {
 
     private List<MainDao> mData;
 
@@ -23,7 +24,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MainHolder>{
 
     @Override
     public MainAdapter.MainHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_main,parent,false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_main, parent, false);
         MainHolder holder = new MainHolder(view);
         return holder;
     }
